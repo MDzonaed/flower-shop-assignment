@@ -235,6 +235,76 @@ span{
 }
 
 
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3E2093;
+    height: 500px;
+    padding: 130px 200px;
+    margin-top: 120px;
+}
+
+.contact-color{
+    padding: 150px;
+    height: 200px;
+    border-radius: 10px;
+    line-height: 30px;
+}
+
+.contact-title{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-description{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.contact-details{
+    color: white;
+}
+
+.contact-details ul{
+    list-style: none;
+}
+
+.contact-details li{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.social-link{
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.social-link a{
+    color: white;
+    padding: 10px;
+}
+
+.form{
+    color: white;
+    padding: 60px;
+}
+
+.form label{
+    font-size: 25px;
+}
+
+.form input{
+    padding: 20px 20px;
+    /* width: 100%; */
+    margin: 5px;
+}
+
+
 .info-container{
     background-image: url("Flower Asset/Rectangle\ 9.png");
     width: 1650px;
